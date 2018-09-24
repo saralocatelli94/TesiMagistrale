@@ -17,5 +17,5 @@ dataColumn=transpose(data);
 mat=[time, dataColumn]
 ds = mat2dataset(mat);
 ds.Properties.VarNames = {'time','spO2'};
-filename=strcat('C:\Users\sara\Documents\5anno\TESI\tracciati\ConversioneExcel\',C(2),C(3),'_',C(12),'.xlsx')
-xlswrite(filename{1},mat)
+filename=strcat('C:\Users\sara\Documents\5anno\TESI\tracciati\ConversioneExcel\',C(2),C(3),'_',C(12),'.csv')
+csvwrite(filename{1},mat)
