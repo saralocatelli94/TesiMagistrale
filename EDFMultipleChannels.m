@@ -5,8 +5,9 @@ h=str2num(s{1});
 m=str2num(s{2});
 s=str2num(s{3});
 startingTime_s=h*3600+m*60+s;
+
 for i=1:length(signalHeader)
-    a=signalHeader.samples_in_record;
+    a=signalHeader(i).samples_in_record;
     b=header.data_record_duration;
     samplingRate=a/b;
     duration=length(signalCell{i})/samplingRate;
