@@ -1,5 +1,5 @@
 addpath('C:\Users\sara\Documents\5anno\TESI\EDFMatlabFunctions\blockEDFLoad');
-[header, signalHeader, signalCell] = blockEdfLoad('C:\Users\sara\Documents\5anno\TESI\tracciati\Activity&spO2\e639a3ec-ed60-4c68-80cd-4a14cbb81f74\Traces.edf');
+[header, signalHeader, signalCell] = blockEdfLoad('C:\Users\sara\Documents\5anno\TESI\tracciati\TracciatiEDF\51ace42c-d9e5-4ea2-89a6-c46582fb5d5f\Traces.edf');
 s=strsplit(header.recording_starttime,'.');
 h=str2num(s{1});
 m=str2num(s{2});
