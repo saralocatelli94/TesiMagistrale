@@ -13,6 +13,7 @@ for i=1:length(signalHeader)
     duration=length(signalCell{i})/samplingRate;
     secondi_fine_registrazione=(startingTime_s+duration);
     time = transpose(linspace(startingTime_s,secondi_fine_registrazione,length(signalCell{i})));
+    time=transpose([startingTime_s:1/samplingRate:secondi_fine_registrazione-1/samplingRat])
     data=signalCell{i};
     mat=[time,data];
     ds = mat2dataset(mat);
@@ -21,7 +22,6 @@ for i=1:length(signalHeader)
          mkdir(destdirectory);
     end
     filename=strcat(destdirectory,'\',signalHeader(i).signal_labels,'.csv');
-    
-    export(ds,'File',filename,'Delimiter',',')
+    export(ds,'File','hospital.csv','Delimiter',',')
     
 end
