@@ -22,3 +22,6 @@ destdirectory = ('C:/Users/sara/Documents/5anno/TESI/DataBase_PhysioNet/Conversi
     filenameAPN=strcat(destdirectory,'/',f,'APN.csv');
     csvwrite(filenameECG,matECG)
     csvwrite(filenameAPN,matAPNEA)
+  
+  
+ 

@@ -1,0 +1,107 @@
+<deployment-project plugin="plugin.toolbox" plugin-version="1.0">
+  <configuration file="C:\Users\sara\Documents\GitHub\TesiMagistrale\hooman650-BioSigKit-ccaf033.prj" location="C:\Users\sara\Documents\GitHub\TesiMagistrale" name="hooman650-BioSigKit-ccaf033" target="target.toolbox" target-name="Package Toolbox">
+    <param.appname>hooman650-BioSigKit-ccaf033</param.appname>
+    <param.authnamewatermark />
+    <param.email />
+    <param.company />
+    <param.summary />
+    <param.description />
+    <param.screenshot />
+    <param.version>1.0</param.version>
+    <param.output>${PROJECT_ROOT}\hooman650-BioSigKit-ccaf033.mltbx</param.output>
+    <param.products.name />
+    <param.products.id />
+    <param.products.version />
+    <param.platforms />
+    <param.guid>8ff3352e-ac35-4956-b922-e30880c278a8</param.guid>
+    <param.exclude.filters />
+    <param.examples>&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;examples&gt;
+   &lt;exampleCategory name="Algorithms"&gt;
+      &lt;example name="SimpleRST" type="html"&gt;
+         &lt;file type="source"&gt;/Algorithms/html/SimpleRST.html&lt;/file&gt;
+         &lt;file type="main"&gt;/Algorithms/SimpleRST.m&lt;/file&gt;
+         &lt;file type="thumbnail"/&gt;
+      &lt;/example&gt;
+      &lt;example name="pan_tompkin" type="html"&gt;
+         &lt;file type="source"&gt;/Algorithms/html/pan_tompkin.html&lt;/file&gt;
+         &lt;file type="main"&gt;/Algorithms/pan_tompkin.m&lt;/file&gt;
+         &lt;file type="thumbnail"/&gt;
+      &lt;/example&gt;
+   &lt;/exampleCategory&gt;
+&lt;/examples&gt;</param.examples>
+    <param.demosxml />
+    <param.apps />
+    <param.registered.apps />
+    <param.docs>C:\Users\sara\Downloads\hooman650-BioSigKit-V1.0.0-25-gccaf033\hooman650-BioSigKit-ccaf033\LayoutLib\layoutdoc\info.xml</param.docs>
+    <param.getting.started.guide />
+    <param.matlabpath.excludes />
+    <param.javaclasspath.excludes />
+    <unset>
+      <param.authnamewatermark />
+      <param.email />
+      <param.company />
+      <param.summary />
+      <param.description />
+      <param.screenshot />
+      <param.version />
+      <param.output />
+      <param.products.name />
+      <param.products.id />
+      <param.products.version />
+      <param.platforms />
+      <param.exclude.filters />
+      <param.demosxml />
+      <param.apps />
+      <param.registered.apps />
+      <param.getting.started.guide />
+      <param.matlabpath.excludes />
+      <param.javaclasspath.excludes />
+    </unset>
+    <fileset.rootdir>
+      <file>C:\Users\sara\Downloads\hooman650-BioSigKit-V1.0.0-25-gccaf033\hooman650-BioSigKit-ccaf033</file>
+    </fileset.rootdir>
+    <fileset.rootfiles>
+      <file>C:\Users\sara\Downloads\hooman650-BioSigKit-V1.0.0-25-gccaf033\hooman650-BioSigKit-ccaf033\@BioSigKit</file>
+      <file>C:\Users\sara\Downloads\hooman650-BioSigKit-V1.0.0-25-gccaf033\hooman650-BioSigKit-ccaf033\Algorithms</file>
+      <file>C:\Users\sara\Downloads\hooman650-BioSigKit-V1.0.0-25-gccaf033\hooman650-BioSigKit-ccaf033\CheatSheet.pdf</file>
+      <file>C:\Users\sara\Downloads\hooman650-BioSigKit-V1.0.0-25-gccaf033\hooman650-BioSigKit-ccaf033\CODE_OF_CONDUCT.md</file>
+      <file>C:\Users\sara\Downloads\hooman650-BioSigKit-V1.0.0-25-gccaf033\hooman650-BioSigKit-ccaf033\CONTRIBUTING.md</file>
+      <file>C:\Users\sara\Downloads\hooman650-BioSigKit-V1.0.0-25-gccaf033\hooman650-BioSigKit-ccaf033\Demo.m</file>
+      <file>C:\Users\sara\Downloads\hooman650-BioSigKit-V1.0.0-25-gccaf033\hooman650-BioSigKit-ccaf033\demos.xml</file>
+      <file>C:\Users\sara\Downloads\hooman650-BioSigKit-V1.0.0-25-gccaf033\hooman650-BioSigKit-ccaf033\LayoutLib</file>
+      <file>C:\Users\sara\Downloads\hooman650-BioSigKit-V1.0.0-25-gccaf033\hooman650-BioSigKit-ccaf033\LICENSE</file>
+      <file>C:\Users\sara\Downloads\hooman650-BioSigKit-V1.0.0-25-gccaf033\hooman650-BioSigKit-ccaf033\p_activ.mat</file>
+      <file>C:\Users\sara\Downloads\hooman650-BioSigKit-V1.0.0-25-gccaf033\hooman650-BioSigKit-ccaf033\paper</file>
+      <file>C:\Users\sara\Downloads\hooman650-BioSigKit-V1.0.0-25-gccaf033\hooman650-BioSigKit-ccaf033\README.md</file>
+      <file>C:\Users\sara\Downloads\hooman650-BioSigKit-V1.0.0-25-gccaf033\hooman650-BioSigKit-ccaf033\RunBioSigKit.m</file>
+      <file>C:\Users\sara\Downloads\hooman650-BioSigKit-V1.0.0-25-gccaf033\hooman650-BioSigKit-ccaf033\SampleSignals</file>
+    </fileset.rootfiles>
+    <fileset.depfun.included />
+    <fileset.depfun.excluded />
+    <fileset.package />
+    <build-deliverables>
+      <file location="C:\Users\sara\Documents\GitHub\TesiMagistrale" name="hooman650-BioSigKit-ccaf033.mltbx" optional="false">C:\Users\sara\Documents\GitHub\TesiMagistrale\hooman650-BioSigKit-ccaf033.mltbx</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MATLAB\R2017b</root>
+      <toolboxes />
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.0</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
